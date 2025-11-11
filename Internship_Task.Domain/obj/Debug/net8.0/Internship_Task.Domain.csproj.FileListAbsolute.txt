@@ -10,3 +10,4 @@ G:\source\repos\Internship_Task\Internship_Task.Domain\obj\Debug\net8.0\Internsh
 G:\source\repos\Internship_Task\Internship_Task.Domain\obj\Debug\net8.0\refint\Internship_Task.Domain.dll
 G:\source\repos\Internship_Task\Internship_Task.Domain\obj\Debug\net8.0\Internship_Task.Domain.pdb
 G:\source\repos\Internship_Task\Internship_Task.Domain\obj\Debug\net8.0\ref\Internship_Task.Domain.dll
+G:\source\repos\Internship_Task\Internship_Task.Domain\obj\Debug\net8.0\Internship_Task.Domain.sourcelink.json

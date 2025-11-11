@@ -6,4 +6,23 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="10.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="7.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Internship_Task.Domain\Internship_Task.Domain.csproj" />
+    <ProjectReference Include="..\Internship_Task.Infrastructure\Internship_Task.Infrastructure.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\RefreshTokenFeatures\handlers\queries\" />
+    <Folder Include="Features\RefreshTokenFeatures\requests\queries\" />
+    <Folder Include="Features\UserFeatures\handlers\queries\" />
+    <Folder Include="Features\UserFeatures\requests\queries\" />
+  </ItemGroup>
+
 </Project>

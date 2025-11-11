@@ -9,3 +9,10 @@ G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\Int
 G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\refint\Internship_Task.Application.dll
 G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\Internship_Task.Application.pdb
 G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\ref\Internship_Task.Application.dll
+G:\source\repos\Internship_Task\Internship_Task.Application\bin\Debug\net8.0\Internship_Task.Domain.dll
+G:\source\repos\Internship_Task\Internship_Task.Application\bin\Debug\net8.0\Internship_Task.Infrastructure.dll
+G:\source\repos\Internship_Task\Internship_Task.Application\bin\Debug\net8.0\Internship_Task.Domain.pdb
+G:\source\repos\Internship_Task\Internship_Task.Application\bin\Debug\net8.0\Internship_Task.Infrastructure.pdb
+G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\Internship_Task.Application.csproj.AssemblyReference.cache
+G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\Internship_Task.Application.sourcelink.json
+G:\source\repos\Internship_Task\Internship_Task.Application\obj\Debug\net8.0\Internsh.EE0F8BD7.Up2Date

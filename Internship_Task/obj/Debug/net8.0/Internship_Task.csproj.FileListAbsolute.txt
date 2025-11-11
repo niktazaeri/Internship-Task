@@ -154,3 +154,14 @@ G:\source\repos\Internship_Task\Internship_Task\obj\Debug\net8.0\refint\Internsh
 G:\source\repos\Internship_Task\Internship_Task\obj\Debug\net8.0\Internship_Task.pdb
 G:\source\repos\Internship_Task\Internship_Task\obj\Debug\net8.0\Internship_Task.genruntimeconfig.cache
 G:\source\repos\Internship_Task\Internship_Task\obj\Debug\net8.0\ref\Internship_Task.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\AutoMapper.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\MediatR.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\MediatR.Contracts.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\MediatR.Extensions.Microsoft.DependencyInjection.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\Microsoft.Extensions.Configuration.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\Internship_Task.Application.dll
+G:\source\repos\Internship_Task\Internship_Task\bin\Debug\net8.0\Internship_Task.Application.pdb
+G:\source\repos\Internship_Task\Internship_Task\obj\Debug\net8.0\Internship_Task.sourcelink.json

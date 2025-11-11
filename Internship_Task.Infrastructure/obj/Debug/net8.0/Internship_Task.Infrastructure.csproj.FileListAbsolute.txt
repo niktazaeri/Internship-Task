@@ -13,3 +13,4 @@ G:\source\repos\Internship_Task\Internship_Task.Infrastructure\obj\Debug\net8.0\
 G:\source\repos\Internship_Task\Internship_Task.Infrastructure\obj\Debug\net8.0\refint\Internship_Task.Infrastructure.dll
 G:\source\repos\Internship_Task\Internship_Task.Infrastructure\obj\Debug\net8.0\Internship_Task.Infrastructure.pdb
 G:\source\repos\Internship_Task\Internship_Task.Infrastructure\obj\Debug\net8.0\ref\Internship_Task.Infrastructure.dll
+G:\source\repos\Internship_Task\Internship_Task.Infrastructure\obj\Debug\net8.0\Internship_Task.Infrastructure.sourcelink.json

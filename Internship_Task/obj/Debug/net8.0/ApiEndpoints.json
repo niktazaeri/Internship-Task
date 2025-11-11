@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "Internship_Task.Controllers.UserController",
+    "Method": "CheckRefreshToken",
+    "RelativePath": "api/refresh-token",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "refreshTokenDTO",
+        "Type": "Internship_Task.Application.DTOs.RefreshTokenDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Internship_Task.Controllers.UserController",
+    "Method": "RegisterUser",
+    "RelativePath": "api/register",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "registerDTO",
+        "Type": "Internship_Task.Application.DTOs.RegisterDTO",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

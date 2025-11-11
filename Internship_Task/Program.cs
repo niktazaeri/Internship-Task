@@ -1,5 +1,11 @@
+using Internship_Task.Application.Features.UserFeatures.handlers.commands;
+using Internship_Task.Application.Interfaces;
+using Internship_Task.Application.Mapping;
+using Internship_Task.Application.Services;
 using Internship_Task.Domain.Entities;
+using Internship_Task.Domain.Interfaces;
 using Internship_Task.Infrastructure.Data;
+using Internship_Task.Infrastructure.Repositories;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -44,6 +50,17 @@ builder.Services.AddAuthentication(options =>
 });
 
 builder.Services.AddAuthorization();
+
+builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<ITokenService, TokenService>();
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<IRefreshTokenRepository, RefreshTokenRepository>();
+
+builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+builder.Services.AddMediatR(configuration =>
+{
+    configuration.RegisterServicesFromAssemblies(typeof(RegisterCommandHandler).Assembly);
+});
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
