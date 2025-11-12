@@ -20,19 +20,22 @@ namespace Internship_Task.Infrastructure.Repositories
         }
         public async Task<Product> CreateAsync(Product product)
         {
-            await _db.Products.AddAsync(product);
-            await _db.SaveChangesAsync();
-            return product;
+            var IsExist = await _db.Products.FirstOrDefaultAsync(p => p.ManufactureEmail == product.ManufactureEmail 
+            && p.ProductDate == product.ProductDate);
+            if (IsExist == null)
+            {
+                await _db.Products.AddAsync(product);
+                await _db.SaveChangesAsync();
+                return product;
+            }
+            else
+                return null;
         }
 
-        public async Task DeleteAsync(int id)
+        public async Task DeleteAsync(Product product)
         {
-            var product = await _db.Products.FindAsync(id);
-            if (product != null)
-            {
-                _db.Products.Remove(product);
-                await _db.SaveChangesAsync();
-            }
+            _db.Products.Remove(product);
+            await _db.SaveChangesAsync();
         }
 
         public async Task<List<Product>> GetAllAsync()
@@ -52,6 +55,7 @@ namespace Internship_Task.Infrastructure.Repositories
             _db.Products.Update(product);
             await _db.SaveChangesAsync();
             return product;
+            
         }
     }
 }

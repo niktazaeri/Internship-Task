@@ -19,6 +19,7 @@ namespace Internship_Task.Domain.Entities
         public DateTime ProductDate { get; set; } = DateTime.Now;
         [Required(ErrorMessage = "Filling this field is required."), Phone(ErrorMessage ="Invalid phone number!")]
         [Column(TypeName ="nvarchar(15)")]
+        [RegularExpression(@"^\+?\d{10,15}$", ErrorMessage = "Invalid phone number!")]
         public string ManufacturePhone { get; set; }
         [Required(ErrorMessage = "Filling this field is required."), EmailAddress(ErrorMessage ="Invalid email.") , Column(TypeName ="varchar(50)"), StringLength(50, ErrorMessage = "Maximum length for email is 50 charachters.")]
         public string ManufactureEmail { get; set; }

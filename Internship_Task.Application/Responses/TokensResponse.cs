@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Internship_Task.Application.Responses
 {
-    public class TokensResponses
+    public class TokensResponse
     {
         public bool? Success { get; set; }
         public string? Message { get; set; }

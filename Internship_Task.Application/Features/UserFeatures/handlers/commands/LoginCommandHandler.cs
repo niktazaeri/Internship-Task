@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 
 namespace Internship_Task.Application.Features.UserFeatures.handlers.commands
 {
-    public class LoginCommandHandler : IRequestHandler<LoginCommand, TokensResponses>
+    public class LoginCommandHandler : IRequestHandler<LoginCommand, TokensResponse>
     {
         private readonly IUserRepository _userRepository;
         private readonly ITokenService _tokenService;
@@ -29,9 +29,9 @@ namespace Internship_Task.Application.Features.UserFeatures.handlers.commands
             _mapper = mapper;
             _refreshTokenRepository = refreshTokenRepository;
         }
-        public async Task<TokensResponses> Handle(LoginCommand request, CancellationToken cancellationToken)
+        public async Task<TokensResponse> Handle(LoginCommand request, CancellationToken cancellationToken)
         {
-            var response = new TokensResponses();
+            var response = new TokensResponse();
             var user = await _userRepository.LoginAsync(request.loginDTO.username, request.loginDTO.password);
             if(user == null)
             {

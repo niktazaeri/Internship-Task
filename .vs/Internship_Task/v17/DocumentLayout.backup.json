@@ -3,8 +3,100 @@
   "WorkspaceRootPath": "G:\\source\\repos\\Internship_Task\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|g:\\source\\repos\\internship_task\\internship_task\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|solutionrelative:internship_task\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\handlers\\commands\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\handlers\\commands\\updateproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|g:\\source\\repos\\internship_task\\internship_task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|solutionrelative:internship_task\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\requests\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\requests\\commands\\updateproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\updateproductdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|solutionrelative:internship_task.domain\\entities\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\handlers\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\handlers\\commands\\createproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\handlers\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\handlers\\commands\\deleteproductcommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\requests\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\requests\\commands\\deleteproductcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\handlers\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\handlers\\queries\\getallproductsqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\productdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\responses\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\requests\\queries\\getproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\requests\\queries\\getproductquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\handlers\\queries\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\handlers\\queries\\getproductqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|g:\\source\\repos\\internship_task\\internship_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|solutionrelative:internship_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\productfeatures\\requests\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\productfeatures\\requests\\queries\\getallproductsquery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\userfeatures\\handlers\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\userfeatures\\handlers\\commands\\registercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|solutionrelative:internship_task.domain\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\userfeatures\\requests\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\userfeatures\\requests\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\userfeatures\\handlers\\commands\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -15,40 +107,8 @@
       "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\userfeatures\\requests\\commands\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\userfeatures\\requests\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\userfeatures\\requests\\commands\\registercommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\services\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\responses\\tokensresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\responses\\tokensresponses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\responses\\registerresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\mapping\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\refreshtokenfeatures\\handlers\\commands\\validaterefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\refreshtokenfeatures\\handlers\\commands\\validaterefreshtokenhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\refreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|solutionrelative:internship_task.domain\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\entities\\refreshtoken.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -57,22 +117,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\features\\refreshtokenfeatures\\requests\\commands\\validaterefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\features\\refreshtokenfeatures\\requests\\commands\\validaterefreshtokencommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\refreshtokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|solutionrelative:internship_task.domain\\interfaces\\irefreshtokenrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|g:\\source\\repos\\internship_task\\internship_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{467962E4-BF4E-4AEE-9CAC-ED33708B2E99}|Internship_Task\\Internship_Task.csproj|solutionrelative:internship_task\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -84,18 +128,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Dell\\AppData\\Roaming\\Microsoft\\UserSecrets\\c61f0079-9b03-48f7-83d8-cd26a9e927f3\\secrets.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|g:\\source\\repos\\internship_task\\internship_task.application\\dtos\\accesstokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FDC69444-DC34-471B-82D3-B205647F4FBB}|Internship_Task.Application\\Internship_Task.Application.csproj|solutionrelative:internship_task.application\\dtos\\accesstokendto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|g:\\source\\repos\\internship_task\\internship_task.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87CC2ABC-12F3-4F35-9EDE-3A09147CE7F6}|Internship_Task.Infrastructure\\Internship_Task.Infrastructure.csproj|solutionrelative:internship_task.infrastructure\\repositories\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|g:\\source\\repos\\internship_task\\internship_task.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4ADE269C-BFC3-416F-A410-C4C387F78175}|Internship_Task.Domain\\Internship_Task.Domain.csproj|solutionrelative:internship_task.domain\\interfaces\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -105,28 +137,304 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "LoginCommandHandler.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Internship_Task\\Controllers\\UserController.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Internship_Task\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:57:54.038Z",
+              "WhenOpened": "2025-11-12T10:55:03.666Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UpdateProductDTO.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\UpdateProductDTO.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\UpdateProductDTO.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\UpdateProductDTO.cs",
+              "RelativeToolTip": "Internship_Task.Application\\DTOs\\UpdateProductDTO.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:26:33.103Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "UpdateProductCommandHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\UpdateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\UpdateProductCommandHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\UpdateProductCommandHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\UpdateProductCommandHandler.cs",
+              "ViewState": "AgIAACMAAAAAAAAAAIAwwDAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:40:10.131Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UpdateProductCommand.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\UpdateProductCommand.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\UpdateProductCommand.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\UpdateProductCommand.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\UpdateProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T12:38:57.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Internship_Task\\Controllers\\ProductController.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Internship_Task\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAACsAAAAAAAAAAAAYwGUAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T10:09:36.55Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
+              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
+              "ViewState": "AgIAACIAAAAAAAAAAAAQwDYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:08:23.238Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Product.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Entities\\Product.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Domain\\Entities\\Product.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Entities\\Product.cs",
+              "RelativeToolTip": "Internship_Task.Domain\\Entities\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAwBoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:07:01.699Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CreateProductCommandHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\CreateProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\CreateProductCommandHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\CreateProductCommandHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\CreateProductCommandHandler.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCoAAABuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:44:35.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DeleteProductCommand.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\DeleteProductCommand.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\DeleteProductCommand.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\DeleteProductCommand.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\commands\\DeleteProductCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:08:38.088Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "DeleteProductCommandHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\DeleteProductCommandHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\DeleteProductCommandHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\DeleteProductCommandHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\commands\\DeleteProductCommandHandler.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAwB8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:10:32.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Mapping\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Mapping\\MappingProfile.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Mapping\\MappingProfile.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Mapping\\MappingProfile.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBQAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:51:34.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RefreshTokenRepository.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAzwBoAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T21:25:37.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GetAllProductsQueryHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetAllProductsQueryHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetAllProductsQueryHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetAllProductsQueryHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetAllProductsQueryHandler.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAkwCAAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:30:52.938Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ProductDTO.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\ProductDTO.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\ProductDTO.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\ProductDTO.cs",
+              "RelativeToolTip": "Internship_Task.Application\\DTOs\\ProductDTO.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:02:54.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Responses\\BaseResponse.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Responses\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T11:09:41.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GetProductQuery.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetProductQuery.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetProductQuery.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetProductQuery.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetProductQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:37:21.536Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Program.cs",
+              "RelativeDocumentMoniker": "Internship_Task\\Program.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Program.cs",
+              "RelativeToolTip": "Internship_Task\\Program.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAcwEcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:50:33.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "GetProductQueryHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetProductQueryHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetProductQueryHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetProductQueryHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\handlers\\queries\\GetProductQueryHandler.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwCQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:38:19.66Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "GetAllProductsQuery.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetAllProductsQuery.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetAllProductsQuery.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetAllProductsQuery.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\ProductFeatures\\requests\\queries\\GetAllProductsQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T09:29:53.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "RegisterDTO.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\RegisterDTO.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RegisterDTO.cs",
+              "RelativeToolTip": "Internship_Task.Application\\DTOs\\RegisterDTO.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA7wBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:18:43.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "RegisterCommandHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\RegisterCommandHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\RegisterCommandHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\RegisterCommandHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\RegisterCommandHandler.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAmwCcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:43:53.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACgAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T17:22:06.244Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Domain\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Internship_Task.Domain\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T08:42:49.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "RegisterCommand.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T19:26:45.24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
               "Title": "LoginCommand.cs",
               "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\LoginCommand.cs",
               "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\LoginCommand.cs",
@@ -134,129 +442,35 @@
               "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\LoginCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:57:03.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:57:03.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "TokensResponses.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\TokensResponses.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Responses\\TokensResponses.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\TokensResponses.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Responses\\TokensResponses.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAfAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
+              "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\handlers\\commands\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAUwCoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:22:56.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T22:57:54.038Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Mapping\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Mapping\\MappingProfile.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Mapping\\MappingProfile.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Mapping\\MappingProfile.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBEAAAA0AAAAAAAAAA==",
+              "DocumentIndex": 26,
+              "Title": "IRefreshTokenRepository.cs",
+              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeDocumentMoniker": "Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
+              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
+              "RelativeToolTip": "Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAMwA0AAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:51:34.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T17:37:59.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Services\\TokenService.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Services\\TokenService.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Services\\TokenService.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Services\\TokenService.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwCQAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T18:00:00.734Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "RegisterCommand.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Features\\UserFeatures\\requests\\commands\\RegisterCommand.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:26:45.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Internship_Task\\Controllers\\UserController.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Internship_Task\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:15:33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "LoginDTO.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\LoginDTO.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\LoginDTO.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\LoginDTO.cs",
-              "RelativeToolTip": "Internship_Task.Application\\DTOs\\LoginDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T22:54:11.467Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ValidateRefreshTokenHandler.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\RefreshTokenFeatures\\handlers\\commands\\ValidateRefreshTokenHandler.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\RefreshTokenFeatures\\handlers\\commands\\ValidateRefreshTokenHandler.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\RefreshTokenFeatures\\handlers\\commands\\ValidateRefreshTokenHandler.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Features\\RefreshTokenFeatures\\handlers\\commands\\ValidateRefreshTokenHandler.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAIA/wCQAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:28:30.203Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
-              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\UserRepository.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:22:06.244Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "RegisterResponse.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\RegisterResponse.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\Responses\\RegisterResponse.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Responses\\RegisterResponse.cs",
-              "RelativeToolTip": "Internship_Task.Application\\Responses\\RegisterResponse.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:28:01.768Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 28,
               "Title": "ValidateRefreshTokenCommand.cs",
               "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\Features\\RefreshTokenFeatures\\requests\\commands\\ValidateRefreshTokenCommand.cs",
               "RelativeDocumentMoniker": "Internship_Task.Application\\Features\\RefreshTokenFeatures\\requests\\commands\\ValidateRefreshTokenCommand.cs",
@@ -264,25 +478,11 @@
               "RelativeToolTip": "Internship_Task.Application\\Features\\RefreshTokenFeatures\\requests\\commands\\ValidateRefreshTokenCommand.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:15:38.404Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:15:38.404Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "RefreshTokenRepository.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
-              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\RefreshTokenRepository.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAYwCwAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:25:37.641Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 27,
               "Title": "RefreshToken.cs",
               "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Entities\\RefreshToken.cs",
               "RelativeDocumentMoniker": "Internship_Task.Domain\\Entities\\RefreshToken.cs",
@@ -290,64 +490,11 @@
               "RelativeToolTip": "Internship_Task.Domain\\Entities\\RefreshToken.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:38:18.544Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T21:38:18.544Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "RefreshTokenDTO.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RefreshTokenDTO.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\RefreshTokenDTO.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RefreshTokenDTO.cs",
-              "RelativeToolTip": "Internship_Task.Application\\DTOs\\RefreshTokenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T21:14:19.471Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Program.cs",
-              "RelativeDocumentMoniker": "Internship_Task\\Program.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task\\Program.cs",
-              "RelativeToolTip": "Internship_Task\\Program.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAAAD0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:50:33.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "IRefreshTokenRepository.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
-              "RelativeToolTip": "Internship_Task.Domain\\Interfaces\\IRefreshTokenRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:37:59.726Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "RegisterDTO.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RegisterDTO.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\RegisterDTO.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\RegisterDTO.cs",
-              "RelativeToolTip": "Internship_Task.Application\\DTOs\\RegisterDTO.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAA7wBkAAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T19:18:43.855Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 29,
               "Title": "User.cs",
               "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Internship_Task.Domain\\Entities\\User.cs",
@@ -355,12 +502,11 @@
               "RelativeToolTip": "Internship_Task.Domain\\Entities\\User.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAwwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T20:02:13.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T20:02:13.857Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 30,
               "Title": "UserDTO.cs",
               "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\UserDTO.cs",
               "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\UserDTO.cs",
@@ -368,58 +514,17 @@
               "RelativeToolTip": "Internship_Task.Application\\DTOs\\UserDTO.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:58:47.904Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T17:58:47.904Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 31,
               "Title": "secrets.json",
               "DocumentMoniker": "C:\\Users\\Dell\\AppData\\Roaming\\Microsoft\\UserSecrets\\c61f0079-9b03-48f7-83d8-cd26a9e927f3\\secrets.json",
               "ToolTip": "C:\\Users\\Dell\\AppData\\Roaming\\Microsoft\\UserSecrets\\c61f0079-9b03-48f7-83d8-cd26a9e927f3\\secrets.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-11-11T18:10:14.041Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AccessTokenDTO.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\AccessTokenDTO.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Application\\DTOs\\AccessTokenDTO.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Application\\DTOs\\AccessTokenDTO.cs",
-              "RelativeToolTip": "Internship_Task.Application\\DTOs\\AccessTokenDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:56:50.232Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "ProductRepository.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
-              "RelativeToolTip": "Internship_Task.Infrastructure\\Repositories\\ProductRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:08:23.238Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IProductRepository.cs",
-              "DocumentMoniker": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeDocumentMoniker": "Internship_Task.Domain\\Interfaces\\IProductRepository.cs",
-              "ToolTip": "G:\\source\\repos\\Internship_Task\\Internship_Task.Domain\\Interfaces\\IProductRepository.cs",
-              "RelativeToolTip": "Internship_Task.Domain\\Interfaces\\IProductRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-11T17:06:12.033Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-11T18:10:14.041Z"
             }
           ]
         }

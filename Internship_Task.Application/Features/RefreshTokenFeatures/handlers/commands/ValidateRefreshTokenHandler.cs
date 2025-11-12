@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 
 namespace Internship_Task.Application.Features.RefreshTokenFeatures.handlers.commands
 {
-    public class ValidateRefreshTokenHandler : IRequestHandler<ValidateRefreshTokenCommand, TokensResponses>
+    public class ValidateRefreshTokenHandler : IRequestHandler<ValidateRefreshTokenCommand, TokensResponse>
     {
         private readonly IRefreshTokenRepository _refreshTokenRepository;
         private readonly IUserRepository _userRepository;
@@ -28,9 +28,9 @@ namespace Internship_Task.Application.Features.RefreshTokenFeatures.handlers.com
             _tokenService = tokenService;
             _mapper = mapper;
         }
-        public async Task<TokensResponses> Handle(ValidateRefreshTokenCommand request, CancellationToken cancellationToken)
+        public async Task<TokensResponse> Handle(ValidateRefreshTokenCommand request, CancellationToken cancellationToken)
         {
-            var response = new TokensResponses();
+            var response = new TokensResponse();
             var token = request.RefreshTokenDTO.Token;
             var refreshToken = await _refreshTokenRepository.GetAsync(token);
             if(refreshToken == null || refreshToken.Expiration < DateTime.Now)

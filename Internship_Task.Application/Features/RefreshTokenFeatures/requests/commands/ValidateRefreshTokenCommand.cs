@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Internship_Task.Application.Features.RefreshTokenFeatures.requests.commands
 {
-    public class ValidateRefreshTokenCommand:IRequest<TokensResponses>
+    public class ValidateRefreshTokenCommand:IRequest<TokensResponse>
     {
         public RefreshTokenDTO RefreshTokenDTO { get; set; }
     }

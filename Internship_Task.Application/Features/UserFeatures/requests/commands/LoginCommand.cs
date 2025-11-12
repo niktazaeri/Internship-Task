@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace Internship_Task.Application.Features.UserFeatures.requests.commands
 {
-    public class LoginCommand:IRequest<TokensResponses>
+    public class LoginCommand:IRequest<TokensResponse>
     {
         public LoginDTO loginDTO { get; set; }
     }

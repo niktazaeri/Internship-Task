@@ -24,7 +24,7 @@ namespace Internship_Task.Infrastructure.Repositories
             {
                 UserId = userId,
                 Token = Guid.NewGuid().ToString(),
-                Expiration = DateTime.UtcNow.AddMinutes(20)
+                Expiration = DateTime.Now.AddDays(6)
             };
             await _db.RefreshTokens.AddAsync(refreshToken);
             await _db.SaveChangesAsync();
