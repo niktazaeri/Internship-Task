@@ -20,16 +20,9 @@ namespace Internship_Task.Infrastructure.Repositories
         }
         public async Task<Product> CreateAsync(Product product)
         {
-            var IsExist = await _db.Products.FirstOrDefaultAsync(p => p.ManufactureEmail == product.ManufactureEmail 
-            && p.ProductDate == product.ProductDate);
-            if (IsExist == null)
-            {
-                await _db.Products.AddAsync(product);
-                await _db.SaveChangesAsync();
-                return product;
-            }
-            else
-                return null;
+            await _db.Products.AddAsync(product);
+            await _db.SaveChangesAsync();
+            return product;
         }
 
         public async Task DeleteAsync(Product product)

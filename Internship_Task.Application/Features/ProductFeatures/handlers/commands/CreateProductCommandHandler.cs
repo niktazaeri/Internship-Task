@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Internship_Task.Application.DTOs;
 using Internship_Task.Application.Features.ProductFeatures.requests.commands;
+using Internship_Task.Application.Interfaces;
 using Internship_Task.Application.Responses;
 using Internship_Task.Domain.Entities;
 using Internship_Task.Domain.Interfaces;
@@ -17,25 +18,35 @@ namespace Internship_Task.Application.Features.ProductFeatures.handlers.commands
     {
         private readonly IMapper _mapper;
         private readonly IProductRepository _productRepository;
-        private readonly IUserRepository _userRepository;
+        private readonly IProductService _productService;
 
-        public CreateProductCommandHandler(IMapper mapper, IProductRepository productRepository , IUserRepository userRepository)
+        public CreateProductCommandHandler(IMapper mapper, IProductRepository productRepository , IProductService productService)
         {
             _mapper = mapper;
             _productRepository = productRepository;
-            _userRepository = userRepository;
+            _productService = productService;
         }
         public async Task<ProductResponse> Handle(CreateProductCommand request, CancellationToken cancellationToken)
         {
+            var response = new ProductResponse();
             var product = _mapper.Map<Product>(request.createProductDTO);
             product.UserId = request.UserId;
-            var new_product = await _productRepository.CreateAsync(product);
-            var response = new ProductResponse();
-            if(new_product != null)
+            var IsDateEmailUnique = await _productService.IsDateEmailUnique(_mapper.Map<ProductDTO>(product));
+            if(IsDateEmailUnique)
             {
-                response.Success = true;
-                response.Message = "Product has been created successfully.";
-                response.Product = _mapper.Map<ProductDTO>(new_product);
+                var new_product = await _productRepository.CreateAsync(product);
+                
+                if (new_product != null)
+                {
+                    response.Success = true;
+                    response.Message = "Product has been created successfully.";
+                    response.Product = _mapper.Map<ProductDTO>(new_product);
+                }
+                else
+                {
+                    response.Success = false;
+                    response.Message = "Creating product failed!";
+                }
             }
             else
             {
