@@ -43,6 +43,12 @@ namespace Internship_Task.Infrastructure.Repositories
             return product;
         }
 
+        public async Task<List<Product>> GetUserProductsAsync(string userId)
+        {
+            var products = await _db.Products.Where(p=>p.UserId == userId).ToListAsync();
+            return products;
+        }
+
         public async Task<Product> UpdateAsync(Product product)
         {
             _db.Products.Update(product);

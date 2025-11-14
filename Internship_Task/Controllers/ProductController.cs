@@ -60,8 +60,8 @@ namespace Internship_Task.Controllers
         [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
-            var get_product_query = new GetProductQuery { Id = id };
-            var get_product_query_response = await _mediator.Send(get_product_query);
+            var product = new GetProductQuery { Id = id };
+            var get_product_query_response = await _mediator.Send(product);
             if (!get_product_query_response.Success)
             {
                 return NotFound(get_product_query_response);
