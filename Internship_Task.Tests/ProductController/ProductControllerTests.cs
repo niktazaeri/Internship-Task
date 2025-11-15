@@ -76,6 +76,7 @@ public class ProductControllerTests
         result1.Should().BeOfType<NotFoundObjectResult>();
         result2.Should().BeOfType<BadRequestObjectResult>();
     }
+
     //Update
     [Fact]
     public async Task ForbiddenUser_ToUpdateProduct()
@@ -111,5 +112,16 @@ public class ProductControllerTests
         var result = await _productController.DeleteProduct(2);
         //assert
         result.Should().BeOfType<NoContentResult>();
+    }
+    [Fact]
+    public async Task GetUserProducts()
+    {
+        var username = "user-1";
+        var query = new GetUserProductsQuery { Username = username };
+        _mockMediator.Setup(x => x.Send(It.IsAny<GetUserProductsQuery>(), It.IsAny<CancellationToken>()))
+            .ReturnsAsync(new ProductResponse { Success = true });
+        var result = await _productController.GetUserProducts(username);
+
+        result.Should().BeOfType<OkObjectResult>();
     }
 }

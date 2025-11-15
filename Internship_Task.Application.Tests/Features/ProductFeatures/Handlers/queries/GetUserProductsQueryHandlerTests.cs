@@ -6,6 +6,7 @@ using Internship_Task.Application.Features.ProductFeatures.handlers.queries;
 using Internship_Task.Application.Features.ProductFeatures.requests.queries;
 using Internship_Task.Domain.Entities;
 using Internship_Task.Domain.Interfaces;
+using Microsoft.VisualStudio.TestPlatform.PlatformAbstractions;
 using Moq;
 using System;
 using System.Collections.Generic;
@@ -17,41 +18,60 @@ namespace Internship_Task.Application.Tests.Features.ProductFeatures.Handlers.qu
 {
     public class GetUserProductsQueryHandlerTests
     {
+        private readonly Mock<IProductRepository> _mockProductRepo;
+        private readonly MapperConfiguration _mockMapper;
+        public GetUserProductsQueryHandlerTests()
+        {
+            _mockProductRepo = new Mock<IProductRepository>();
+            _mockMapper = new MapperConfiguration(cfg =>
+            {
+                cfg.CreateMap<Product, ProductDTO>().ReverseMap();
+            }
+            );
+        }
         [Fact]
         public async Task GetUserProducts_IfSuccess()
         {
-            var mockProductRepo = new Mock<IProductRepository>();
-            var mockMapper = new MapperConfiguration(
-                c =>
-                {
-                    c.CreateMap<Product, ProductDTO>();
-                });
 
-            var userId = Guid.NewGuid().ToString();
+            var username = "user-1";
             var products = new List<Product>
             {
-                new Product {Name = "tv" , IsAvailable = true , ManufactureEmail = "user1@example.com" ,
-                    ManufacturePhone = "09999999999" , ProductDate = DateTime.Now , UserId = userId},
-                new Product {Name = "phone" , IsAvailable = false , ManufactureEmail = "user1@example.com" ,
-                    ManufacturePhone = "09999999999" , ProductDate = DateTime.Now , UserId = userId},
-                new Product {Name = "phone2" , IsAvailable = true , ManufactureEmail = "user2@example.com" ,
-                    ManufacturePhone = "09999999999" , ProductDate = DateTime.Now , UserId = "user2-id"},
+                new Product {Name = "shampoo" , UserId = "1" , User = new User{ UserName = "user-1" } },
+                new Product {Name = "tv" , UserId = "1", User = new User{ UserName = "user-1" }},
+                new Product {Name = "test" , UserId = "2", User = new User{ UserName = "user-2" }},
             };
 
-            mockProductRepo.Setup(x => x.GetUserProductsAsync(userId)).ReturnsAsync(
-                products.Where(p=>p.UserId == userId).ToList());
+            _mockProductRepo.Setup(x => x.GetUserProductsAsync(username)).ReturnsAsync(
+                products.Where(p => p.User.UserName == "user-1").ToList());
 
-            var query = new GetUserProductsQuery
+            var query = new GetUserProductsQuery { Username = username };
+            var handler = new GetUserProductsQueryHandler(_mockProductRepo.Object , _mockMapper.CreateMapper());
+
+            //act
+            var result = await handler.Handle(query, CancellationToken.None);
+
+            //assert
+            result.Success.Should().BeTrue();
+            result.Products.Select(p=>p.UserId).Should().Contain("1");
+        }
+        [Fact]
+        public async Task UserProductsNotFound_ToFetchTheirProducts()
+        {
+            var username = "user-3";
+            var products = new List<Product>
             {
-                UserId = userId,
+                new Product {Name = "test1" , User = new User {UserName = "user-1" }},
+                new Product {Name = "test2" , User = new User {UserName = "user-2" }}
             };
+            _mockProductRepo.Setup(x => x.GetUserProductsAsync(username))
+                .ReturnsAsync(products.Where(p=>p.User.UserName == username).ToList());
 
-            var handler = new GetUserProductsQueryHandler(mockProductRepo.Object , mockMapper.CreateMapper());
+            var query = new GetUserProductsQuery { Username= username };
+            var handler = new GetUserProductsQueryHandler(_mockProductRepo.Object , _mockMapper.CreateMapper());
 
             var result = await handler.Handle(query,CancellationToken.None);
-
-            result.Products.Should().OnlyContain(p => p.UserId == userId);
-            result.Success.Should().BeTrue();
+            
+            result.Success.Should().BeFalse();
         }
     }
 }

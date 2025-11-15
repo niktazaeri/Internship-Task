@@ -14,6 +14,6 @@ namespace Internship_Task.Domain.Interfaces
         Task<Product> CreateAsync(Product product);
         Task<Product> UpdateAsync(Product product);
         Task DeleteAsync(Product product);
-        Task<List<Product>> GetUserProductsAsync(string userId);
+        Task<List<Product>> GetUserProductsAsync(string username);
     }
 }

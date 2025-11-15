@@ -10,6 +10,6 @@ namespace Internship_Task.Application.Features.ProductFeatures.requests.queries
 {
     public class GetUserProductsQuery:IRequest<ProductResponse>
     {
-        public string UserId { get; set; }
+        public string Username { get; set; }
     }
 }

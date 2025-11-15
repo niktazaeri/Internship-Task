@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using System.Threading.Tasks;
 
 namespace Internship_Task.Controllers
 {
@@ -99,6 +100,16 @@ namespace Internship_Task.Controllers
                 return Ok(update_command_response);
             }
             
+        }
+        [AllowAnonymous]
+        [HttpPost("get-user-products")]
+        public async Task<IActionResult> GetUserProducts([FromBody]string username)
+        {
+            var query = new GetUserProductsQuery { Username = username };
+            var response = await _mediator.Send(query);
+            if(response.Success)
+                return Ok(response);
+            return NotFound(response);
         }
     }
 }

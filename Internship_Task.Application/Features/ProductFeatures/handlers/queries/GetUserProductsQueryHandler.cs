@@ -25,7 +25,7 @@ namespace Internship_Task.Application.Features.ProductFeatures.handlers.queries
 
         public async Task<ProductResponse> Handle(GetUserProductsQuery request, CancellationToken cancellationToken)
         {
-            var products = await _productRepository.GetUserProductsAsync(request.UserId);
+            var products = await _productRepository.GetUserProductsAsync(request.Username);
             var response = new ProductResponse();
             if (products.Count > 0)
             {
@@ -34,7 +34,7 @@ namespace Internship_Task.Application.Features.ProductFeatures.handlers.queries
             }
             else
             {
-                response.Success = true;
+                response.Success = false;
                 response.Message = "This user product list is empty";
             }
             return response;

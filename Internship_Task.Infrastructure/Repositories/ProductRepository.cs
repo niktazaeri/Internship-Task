@@ -43,9 +43,9 @@ namespace Internship_Task.Infrastructure.Repositories
             return product;
         }
 
-        public async Task<List<Product>> GetUserProductsAsync(string userId)
+        public async Task<List<Product>> GetUserProductsAsync(string username)
         {
-            var products = await _db.Products.Where(p=>p.UserId == userId).ToListAsync();
+            var products = await _db.Products.Include(p => p.User).Where(p => p.User.UserName == username).ToListAsync();
             return products;
         }
 
