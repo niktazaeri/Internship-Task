@@ -33,13 +33,13 @@ namespace Internship_Task.Infrastructure.Repositories
 
         public async Task<List<Product>> GetAllAsync()
         {
-            var products = await _db.Products.ToListAsync();
+            var products = await _db.Products.Include(p => p.User).ToListAsync();
             return products;
         }
 
         public async Task<Product> GetAsync(int id)
         {
-            var product = await _db.Products.FindAsync(id);
+            var product = await _db.Products.Include(p=>p.User).FirstOrDefaultAsync(p=>p.Id == id);
             return product;
         }
 

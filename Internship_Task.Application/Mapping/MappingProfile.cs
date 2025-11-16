@@ -16,7 +16,9 @@ namespace Internship_Task.Application.Mapping
             CreateMap<User, UserDTO>().ReverseMap();
             CreateMap<User,RegisterDTO>().ReverseMap();
             CreateMap<LoginDTO,User>().ReverseMap();
-            CreateMap<ProductDTO, Product>().ReverseMap();
+            CreateMap<Product, ProductDTO>()
+                .ForMember(dest => dest.Username , opt => opt.MapFrom(opt => opt.User.UserName))
+                .ReverseMap();
             CreateMap<CreateProductDTO , Product>().ReverseMap();
             CreateMap<UpdateProductDTO , Product>().ReverseMap();
         }
